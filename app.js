@@ -76,3 +76,23 @@ function convertTemperature(temperature, scale) {
     }
 }
 console.log('Exercise 8 Result:', convertTemperature(32, 'F'))
+
+
+
+// Exercise 9
+
+function basicCalculator(num1, num2, operation) {
+    if (operation === 'add') {
+        return num1 + num2;
+    } else if (operation === 'subtract') {
+        return num1 - num2;
+    } else if (operation === 'multiply') {
+        return num1 * num2;
+    } else if (operation === 'divide') {
+        return num1 / num2;
+    } else {
+        return 'Invalid operation';
+    }
+}
+
+console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
